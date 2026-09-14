@@ -56,16 +56,31 @@ nav img {
     text-align: center;
 }
 .book {
+    margin: 0 auto;
+}
+.book-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Centra el libro verticalmente en la pantalla */
+    min-height: 100vh;
     padding: 20px;
     box-sizing: border-box;
+    background-color: #1a162b
+}
+.book-page{
+    padding: 20px;
+    background-color: #f4ebd0;
+    border: 1px solid #c2b280;
 }
 img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
+    height: auto;
+    border: 2px solid #3b2314; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+.book-page img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
 }
